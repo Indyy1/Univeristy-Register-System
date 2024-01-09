@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Represents\ a\ student\ in\ the\ university.\r\n
+comment1.params=studentName\ studentId\ courseTaken\ moduleTaken
+comment1.target=Student(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ new\ Student\ with\ the\ given\ parameters.\r\n\r\n\ @param\ studentName\ The\ name\ of\ the\ student.\r\n\ @param\ studentId\ \ \ The\ ID\ of\ the\ student.\r\n\ @param\ courseTaken\ The\ course\ taken\ by\ the\ student.\r\n\ @param\ moduleTaken\ The\ module\ taken\ by\ the\ student.\r\n\ @throws\ IllegalArgumentException\ if\ any\ parameter\ is\ null\r\n
+comment2.params=
+comment2.target=java.lang.String\ getStudentName()
+comment2.text=\r\n\ Gets\ the\ name\ of\ the\ student.\r\n\r\n\ @return\ The\ name\ of\ the\ student.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getStudentId()
+comment3.text=\r\n\ Gets\ the\ ID\ of\ the\ student.\r\n\r\n\ @return\ The\ ID\ of\ the\ student.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCourseTaken()
+comment4.text=\r\n\ Gets\ the\ course\ taken\ by\ the\ student.\r\n\r\n\ @return\ The\ course\ taken\ by\ the\ student.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getModuleTaken()
+comment5.text=\r\n\ Gets\ the\ module\ taken\ by\ the\ student.\r\n\r\n\ @return\ The\ module\ taken\ by\ the\ student.\r\n
+comment6.params=
+comment6.target=double\ getMarks()
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\r\n\ Checks\ if\ two\ students\ are\ equal\ based\ on\ their\ IDs.\r\n\r\n\ @param\ obj\ The\ object\ to\ compare\ with.\r\n\ @return\ true\ if\ the\ students\ have\ the\ same\ ID,\ false\ otherwise.\r\n
+comment8.params=
+comment8.target=int\ hashCode()
+comment8.text=\r\n\ Generates\ a\ hash\ code\ based\ on\ the\ student's\ ID.\r\n\r\n\ @return\ The\ hash\ code.\r\n
+numComments=9
